@@ -6,7 +6,7 @@ __pycache__/
 # データ（大きいので除外。サンプルだけ例外的に含める）
 data/*.csv
 !data/kasama_features_sample.csv
-
+!data/kasama_merged.csv
 # SQLite のデータベース（Phase 2 で作る。CSV から再生成できる）
 *.db
 
